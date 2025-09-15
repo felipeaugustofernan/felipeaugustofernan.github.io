@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>felipe augusto</h1>
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdBLbEBYUyb30KNaK_7nuTcOXDYKqZ9P5wXg&"
+         alt="minha foto"
+         style = "width: 150px; height: 150px; border-radius: 50%; object-fit: cover;"
+         >
+        <h1>Felipe Augusto</h1>
+        <p>Full Stack Developer</p>
+    </header>
+
+    <div id="stacks">
+        <ul class="stack">
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+
+    <script src="https://kit.fontawesome.com/44b0563beb.js" crossorigin="anonymous"></script>
+
+    <div id="info">
+        <ul>
+            <li>
+                <a href="mailto:0000110575960xsp@al.educacao.sp.gov.br
+                "><i class="fa-solid fa-envelope"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/felipeaugustofernan"><i class="fa-brands fa-github"></i></a>
+                
+            </li>
+        </ul>
+
+        <button onclick="enviarEmail()">Enviar Email</button>
+
+<script>
+  function enviarEmail() {
+    window.location.href = "mailto:destinatario@exemplo.com?subject=Assunto aqui&body=Mensagem de teste";
+  }
+</script>
+        
+
+
+
+      <div>
 </body>
 </html>

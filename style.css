@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
+
+.stack {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
